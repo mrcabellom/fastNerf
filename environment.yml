@@ -1,0 +1,13 @@
+name: fast_nerf
+channels:
+ - default
+dependencies:
+ - python=3.8
+ - pip
+ - pip:
+    - matplotlib==3.5.2
+    - numpy==1.23.1
+    - torch
+    - torchvision
+    - tqdm==4.64.0
+    - --extra-index-url https://download.pytorch.org/whl/cu116
